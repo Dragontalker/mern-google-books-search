@@ -1,0 +1,20 @@
+{
+  "name": "mern-google-books-search",
+  "version": "1.0.0",
+  "description": "A MERN web application allows user to search book from Google Books API and save to MongoDB through React.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragontalker/mern-google-books-search.git"
+  },
+  "keywords": [],
+  "author": "Tong (Richard) Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dragontalker/mern-google-books-search/issues"
+  },
+  "homepage": "https://github.com/Dragontalker/mern-google-books-search#readme"
+}
