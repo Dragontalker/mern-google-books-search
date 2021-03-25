@@ -4,7 +4,8 @@
   "description": "A MERN web application allows user to search book from Google Books API and save to MongoDB through React.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
