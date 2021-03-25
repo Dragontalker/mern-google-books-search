@@ -3,11 +3,12 @@ import axios from 'axios';
 function App() {
   return (
     <div className="container">
+      <h1>Book Search Application</h1>
       <form>
         <div className="form-group">
           <input 
             type="text" 
-            className="input-control" 
+            className="form-control" 
             placeholder="Search for Books..."
             autoComplete="off"
           />
