@@ -10,3 +10,7 @@ const PORT = process.env.PORT || 8080;
 
 // HTTP request logger
 app.use(morgan('dev'));
+
+app.listen(PORT, () => {
+    console.log(`==> 🌎  Listening on port ${PORT}. Visit http://localhost:${PORT} in your browser.`);
+});
