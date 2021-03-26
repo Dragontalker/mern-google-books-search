@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const Card = (props) => {
+const SearchCard = (props) => {
     const data = {
         title: props.title,
         authors: props.authors,
@@ -46,4 +46,4 @@ const Card = (props) => {
     )
 }
 
-export default Card;
+export default SearchCard;

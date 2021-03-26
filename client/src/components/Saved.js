@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import Card from './Card';
+import SearchCard from './SearchCard';
 
 const Search = () => {
 
@@ -21,7 +21,7 @@ const Search = () => {
             <div className="container">
                 {result.map(book => {
                     return (
-                        <Card 
+                        <SearchCard 
                             key={book._id}
                             title={book.title}
                             description={book.description}

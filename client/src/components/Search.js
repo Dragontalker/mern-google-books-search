@@ -1,6 +1,6 @@
 import fetchData from '../utils/api';
 import { useState } from 'react';
-import Card from './Card';
+import SearchCard from './SearchCard';
 
 const Search = () => {
 
@@ -41,7 +41,7 @@ const Search = () => {
             <div className="container">
                 {result.map(book => {
                     return (
-                        <Card 
+                        <SearchCard 
                             key={book.id}
                             title={book.volumeInfo.title}
                             description={book.volumeInfo.description}
