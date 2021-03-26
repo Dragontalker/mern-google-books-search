@@ -1,13 +1,6 @@
 import axios from 'axios';
 
 const SavedCard = (props) => {
-    const data = {
-        title: props.title,
-        authors: props.authors,
-        description: props.description,
-        imageLink: props.imageLink,
-        selfLink: props.selfLink
-    }
 
     const handleDelete = () => {
         console.log(props.id);
@@ -21,6 +14,7 @@ const SavedCard = (props) => {
             .catch(() => {
               console.log("Internal server error...");
             });
+        window.location.reload(false);
     }
     
 

@@ -10,7 +10,7 @@ router.get('/books', (req, res) => {
             res.json(data);
         })
         .catch((error) => {
-            console.log("Erro: ", error);
+            console.log("Error: ", error);
         });
 });
 
@@ -35,7 +35,13 @@ router.post('/save', (req, res) => {
 });
 
 router.delete('/delete/:id', (req, res) => {
-    console.log(req.params.id);
+    Book.deleteOne( { _id: req.params.id } )
+        .then((data) => {
+            console.log("Success!");
+        })
+        .catch((error) => {
+            console.log("Failed!");
+        });
 });
 
 module.exports = router;
