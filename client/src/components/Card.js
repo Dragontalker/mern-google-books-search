@@ -1,4 +1,13 @@
 const Card = (props) => {
+    const data = {
+        title: props.title,
+        auothors: props.authors,
+        description: props.description,
+        imageLink: props.imageLink,
+        selfLink: props.selfLink
+    }
+    console.log(data);
+
     return (
         <div class="card mb-4">
             <div class="row no-gutters">
@@ -10,7 +19,7 @@ const Card = (props) => {
                         <h4 className="card-title mt-2">{props.title}</h4>   
                         <p className="card-text">{props.description}</p>
                         <a href={props.selfLink} className="btn btn-lg btn-primary mb-3">View</a>
-                        <a href={props.selfLink} className="btn btn-lg btn-warning mb-3 ml-3">Add</a>
+                        <button className="btn btn-lg btn-warning mb-3 ml-3">Add</button>
                     </div>
                 </div>
             </div>

@@ -9,6 +9,8 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/googleLibrary';
 
+const routes = require('./routes/apiRoutes');
+
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -23,6 +25,8 @@ app.use(express.urlencoded({extended: true}));
 
 // HTTP request logger
 app.use(morgan('dev'));
+app.use('/api', routes);
+
 
 app.listen(PORT, () => {
     console.log(`==> 🌎  Listening on port ${PORT}. Visit http://localhost:${PORT} in your browser.`);
