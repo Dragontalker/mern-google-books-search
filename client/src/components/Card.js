@@ -21,8 +21,8 @@ const Card = (props) => {
                     <div className="card-block px-2">
                         <h4 className="card-title mt-2">{props.title}</h4>   
                         <p className="card-text">{props.description}</p>
-                        <a href={props.selfLink} className="btn btn-lg btn-primary mb-3">View</a>
-                        <button onClick={handleClick} className="btn btn-lg btn-warning mb-3 ml-3">Add</button>
+                        <a href={props.selfLink} className="btn btn-md btn-primary mb-3">View eBook</a>
+                        <button onClick={handleClick} className="btn btn-md btn-warning mb-3 ml-2">Add to Your Library</button>
                     </div>
                 </div>
             </div>

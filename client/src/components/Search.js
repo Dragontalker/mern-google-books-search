@@ -34,7 +34,7 @@ const Search = () => {
                     autoComplete="off"
                     />
                 </div>
-                <button type="submit" className="btn btn-lg btn-danger">Search</button>
+                <button type="submit" className="btn btn-md btn-danger">Search Google Books</button>
                 </form>
             </div>
             <br />
