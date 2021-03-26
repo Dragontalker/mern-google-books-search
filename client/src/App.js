@@ -6,12 +6,6 @@ function App() {
   const [book, setBook] = useState("");
   const [result, setResult] = useState([]);
   
-  // useEffect(() => {
-  //   fetchData("javascript", 40).then(res => {
-  //     console.log(res);
-  //   })
-  // }, [])
-
   const handleChange = (event) => {
     const bookName = event.target.value;
     setBook(bookName);
@@ -19,7 +13,9 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(book);
+    fetchData(book, 40).then(res => {
+      setResult(res.data.items);
+    })
   }
 
   return (
@@ -37,6 +33,7 @@ function App() {
         </div>
         <button type="submit" className="btn btn-danger">Search</button>
       </form>
+      {JSON.stringify(result)}
     </div>
   );
 }
