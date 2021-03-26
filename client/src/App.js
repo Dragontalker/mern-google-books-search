@@ -4,7 +4,7 @@ import React, {useState, useEffect } from 'react';
 function App() {
   
   useEffect(() => {
-    fetchData("javascript").then(res => {
+    fetchData("javascript", 40).then(res => {
       console.log(res);
     })
   }, [])
