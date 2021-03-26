@@ -1,17 +1,21 @@
-const Card = () => {
+const Card = (props) => {
     return (
-        <div class="card flex-row flex-wrap">
-            <div class="card-header border-0">
-                <img src="//placehold.it/200" alt=""/>
+        <div class="card mb-4">
+            <div class="row no-gutters">
+                <div class="col-auto">
+                    <img src={props.imageLink} alt="book cover"/>
+                </div>
+                <div class="col">
+                    <div class="card-block px-2">
+                        <h4 className="card-title">{props.title}</h4>   
+                        <p className="card-text">{props.description}</p>
+                        <a href={props.selfLink} className="btn btn-lg btn-primary mb-3">View</a>
+                        <a href={props.selfLink} className="btn btn-lg btn-warning mb-3 ml-3">Add</a>
+                    </div>
+                </div>
             </div>
-            <div class="card-block px-2">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Description</p>
-                <a href="#" class="btn btn-primary">BUTTON</a>
-            </div>
-            <div class="w-100"></div>
             <div class="card-footer w-100 text-muted">
-                Footer stating cats are CUTE little animals
+                Authors: {props.authors}
             </div>
         </div>
     )
