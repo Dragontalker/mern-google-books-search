@@ -8,9 +8,10 @@ const Search = () => {
     const [result, setResult] = useState([]);
     
     useEffect(() => {
-        axios.get('/api').then(res => {
-            setResult(res);
-            setBookCount(res.length);
+        axios.get('/api/books').then(res => {
+            const data = res.data;
+            setBookCount(data.length);
+            setResult(data);
         })
     }, [bookCount])
   
@@ -22,11 +23,11 @@ const Search = () => {
                     return (
                         <Card 
                             key={book._id}
-                            title={book.volumeInfo.title}
-                            description={book.volumeInfo.description}
-                            authors={book.volumeInfo.authors}
-                            imageLink={book.volumeInfo.imageLinks.thumbnail}
-                            selfLink={book.accessInfo.webReaderLink}
+                            title={book.title}
+                            description={book.description}
+                            authors={book.authors}
+                            imageLink={book.imageLink}
+                            selfLink={book.selfLink}
                         />
                     )
                 })}

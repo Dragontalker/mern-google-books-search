@@ -3,7 +3,7 @@ const Book = require('../models/Book');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
+router.get('/books', (req, res) => {
     Book.find({})
         .then((data) => {
             console.log("Data: ", data);
@@ -27,7 +27,7 @@ router.post('/save', (req, res) => {
             });
             return;
         }
-        
+
         return res.json({
             msg: 'Your data has been saved!!!'
         });
