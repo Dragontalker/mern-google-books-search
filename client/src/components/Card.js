@@ -1,7 +1,9 @@
+import axios from 'axios';
+
 const Card = (props) => {
     const data = {
         title: props.title,
-        auothors: props.authors,
+        authors: props.authors,
         description: props.description,
         imageLink: props.imageLink,
         selfLink: props.selfLink
@@ -9,6 +11,17 @@ const Card = (props) => {
     
     const handleClick = (event) => {
         console.log(data);
+        axios({
+            url: "/api/save",
+            method: "POST",
+            data: data
+          })
+            .then(() => {
+              console.log("Data has been sent to the server!");
+            })
+            .catch(() => {
+              console.log("Internal server error...");
+            });
     }
 
     return (
