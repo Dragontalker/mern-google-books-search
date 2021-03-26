@@ -18,6 +18,9 @@ mongoose.connection.on('connected', () => {
     console.log('==> 🌱  MongoDB is connected.');
 });
 
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
+
 // HTTP request logger
 app.use(morgan('dev'));
 
