@@ -4,20 +4,20 @@ import SavedCard from './SavedCard';
 
 const Search = () => {
 
-    const [bookCount, setBookCount] = useState(0);
     const [result, setResult] = useState([]);
     
     useEffect(() => {
         axios.get('/api/books').then(res => {
             const data = res.data;
-            setBookCount(data.length);
             setResult(data);
         })
-    }, [bookCount])
+    }, [])
   
     return (
         <div>
-            <h2>Your Personal Library</h2>
+            <div className="container">
+                <h1>Your Personal Library</h1>
+            </div>
             <div className="container">
                 {result.map(book => {
                     return (
