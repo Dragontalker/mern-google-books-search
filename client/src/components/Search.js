@@ -1,7 +1,6 @@
 import fetchData from '../utils/api';
 import { useState } from 'react';
 import Card from './Card';
-import MOCK_DATA from '../utils/MOCK_DATA.json';
 
 const Search = () => {
 
@@ -17,16 +16,7 @@ const Search = () => {
       event.preventDefault();
       fetchData(book, 40).then(res => {
         const data = res.data.items;
-        const result = data.map(book => {
-            return {
-                title: book.volumeInfo.title,
-                authors: book.volumeInfo.authors.join(", "),
-                description: book.volumeInfo.description,
-                selfLink: book.accessInfo.webReaderLink,
-                imageLink: book.volumeInfo.imageLinks.thumbnail
-            }
-        })
-        setResult(result);
+        setResult(data);
       })
     }
   
@@ -49,18 +39,19 @@ const Search = () => {
             </div>
             <br />
             <div className="container">
-                {MOCK_DATA.map(book => {
+                {result.map(book => {
                     return (
                         <Card 
-                            title={book.title}
-                            description={book.description}
-                            authors={book.authors}
-                            imageLink={book.imageLink}
-                            selfLink={book.selfLink}
+                            title={book.volumeInfo.title}
+                            description={book.volumeInfo.description}
+                            authors={book.volumeInfo.authors}
+                            imageLink={book.volumeInfo.imageLinks.thumbnail}
+                            selfLink={book.accessInfo.webReaderLink}
                         />
                     )
                 })}
             </div>
+
         </div>
     );
   }
