@@ -1,6 +1,14 @@
-import axios from 'axios';
+import fetchData from './utils/api';
+import React, {useState, useEffect } from 'react';
 
 function App() {
+  
+  useEffect(() => {
+    fetchData("javascript").then(res => {
+      console.log(res);
+    })
+  }, [])
+
   return (
     <div className="container">
       <h1>Book Search Application</h1>
