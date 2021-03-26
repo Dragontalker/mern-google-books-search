@@ -42,6 +42,7 @@ const Search = () => {
                 {result.map(book => {
                     return (
                         <Card 
+                            key={book.id}
                             title={book.volumeInfo.title}
                             description={book.volumeInfo.description}
                             authors={book.volumeInfo.authors}
@@ -54,8 +55,7 @@ const Search = () => {
 
         </div>
     );
-  }
+}
   
-  export default Search
-;
+export default Search;
   

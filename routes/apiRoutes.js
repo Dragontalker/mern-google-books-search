@@ -20,7 +20,6 @@ router.post('/save', (req, res) => {
 
     const newBook = new Book(data);
 
-    // .save
     newBook.save((error) => {
         if (error) {
             res.status(500).json({
@@ -28,7 +27,7 @@ router.post('/save', (req, res) => {
             });
             return;
         }
-        // BlogPost
+        
         return res.json({
             msg: 'Your data has been saved!!!'
         });
