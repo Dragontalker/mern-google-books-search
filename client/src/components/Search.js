@@ -1,5 +1,6 @@
 import fetchData from '../utils/api';
 import { useState } from 'react';
+import MOCK_DATA from '../utils/MOCK_DATA.json';
 
 const Search = () => {
 
@@ -18,7 +19,7 @@ const Search = () => {
         const result = data.map(book => {
             return {
                 title: book.volumeInfo.title,
-                authors: book.volumeInfo.authors,
+                authors: book.volumeInfo.authors.join(", "),
                 description: book.volumeInfo.description,
                 selfLink: book.selfLink,
                 imageLink: book.volumeInfo.imageLinks.thumbnail
@@ -43,7 +44,7 @@ const Search = () => {
           </div>
           <button type="submit" className="btn btn-danger">Search</button>
         </form>
-        {JSON.stringify(result)}
+        {JSON.stringify(MOCK_DATA)}
       </div>
     );
   }
