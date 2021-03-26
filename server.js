@@ -9,6 +9,11 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/googleLibrary';
 
+mongoose.connect(MONGODB_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
+
 // HTTP request logger
 app.use(morgan('dev'));
 
