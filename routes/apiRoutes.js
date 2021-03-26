@@ -14,4 +14,25 @@ router.get('/', (req, res) => {
         });
 });
 
+router.post('/save', (req, res) => {
+    console.log('Body: ', req.body);
+    const data = req.body;
+
+    const newBook = new Book(data);
+
+    // .save
+    newBook.save((error) => {
+        if (error) {
+            res.status(500).json({
+                msg: 'Sorry, internal servor errors'
+            });
+            return;
+        }
+        // BlogPost
+        return res.json({
+            msg: 'Your data has been saved!!!'
+        });
+    });
+});
+
 module.exports = router;
