@@ -14,7 +14,17 @@ const Search = () => {
     const handleSubmit = (event) => {
       event.preventDefault();
       fetchData(book, 40).then(res => {
-        setResult(res.data.items);
+        const data = res.data.items;
+        const result = data.map(book => {
+            return {
+                title: book.volumeInfo.title,
+                authors: book.volumeInfo.authors,
+                description: book.volumeInfo.description,
+                selfLink: book.selfLink,
+                imageLink: book.volumeInfo.imageLinks.thumbnail
+            }
+        })
+        setResult(result);
       })
     }
   
