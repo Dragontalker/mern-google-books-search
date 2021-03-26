@@ -1,7 +1,7 @@
 import fetchData from './utils/api';
-import React, {useState, useEffect } from 'react';
+import { useState } from 'react';
 
-function App() {
+const App = () => {
 
   const [book, setBook] = useState("");
   const [result, setResult] = useState([]);
