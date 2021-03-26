@@ -7,7 +7,7 @@ const Card = (props) => {
                 </div>
                 <div class="col">
                     <div class="card-block px-2">
-                        <h4 className="card-title">{props.title}</h4>   
+                        <h4 className="card-title mt-2">{props.title}</h4>   
                         <p className="card-text">{props.description}</p>
                         <a href={props.selfLink} className="btn btn-lg btn-primary mb-3">View</a>
                         <a href={props.selfLink} className="btn btn-lg btn-warning mb-3 ml-3">Add</a>

@@ -23,7 +23,7 @@ const Search = () => {
     return (
         <div>
             <div className="container">
-                <h1>Book Search Application</h1>
+                <h1>Find the book you love!</h1>
                 <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <input 
@@ -34,7 +34,7 @@ const Search = () => {
                     autoComplete="off"
                     />
                 </div>
-                <button type="submit" className="btn btn-danger">Search</button>
+                <button type="submit" className="btn btn-lg btn-danger">Search</button>
                 </form>
             </div>
             <br />
