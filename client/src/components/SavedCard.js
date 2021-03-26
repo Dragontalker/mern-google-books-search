@@ -8,6 +8,8 @@ const SavedCard = (props) => {
         imageLink: props.imageLink,
         selfLink: props.selfLink
     }
+
+    console.log(props);
     
     const handleClick = (event) => {
         console.log(data);

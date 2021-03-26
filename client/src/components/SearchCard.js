@@ -23,6 +23,7 @@ const SearchCard = (props) => {
               console.log("Internal server error...");
             });
     }
+    
 
     return (
         <div className="card mb-4">

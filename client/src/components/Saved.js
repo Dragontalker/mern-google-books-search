@@ -22,7 +22,8 @@ const Search = () => {
                 {result.map(book => {
                     return (
                         <SavedCard 
-                            key={book._id}
+                            key={book["_id"]}
+                            id={book["_id"]}
                             title={book.title}
                             description={book.description}
                             authors={book.authors}
