@@ -10,3 +10,8 @@ const BookSchema = new Schema({
     imageLink: String,
     selfLink: String
 });
+
+// Model
+const Book = mongoose.model('Book', BookSchema);
+
+module.exports = Book;
