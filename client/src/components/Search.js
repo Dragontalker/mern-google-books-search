@@ -14,7 +14,7 @@ const Search = () => {
   
     const handleSubmit = (event) => {
       event.preventDefault();
-      fetchData(book, 40).then(res => {
+      fetchData(book, 10).then(res => {
         const data = res.data.items;
         setResult(data);
       })
