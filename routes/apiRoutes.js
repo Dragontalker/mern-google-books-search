@@ -34,4 +34,8 @@ router.post('/save', (req, res) => {
     });
 });
 
+router.delete('/delete/:id', (req, res) => {
+    console.log(req.params.id);
+});
+
 module.exports = router;
