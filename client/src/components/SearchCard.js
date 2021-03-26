@@ -10,7 +10,6 @@ const SearchCard = (props) => {
     }
     
     const handleClick = (event) => {
-        console.log(data);
         axios({
             url: "/api/save",
             method: "POST",
