@@ -13,11 +13,15 @@ const Search = () => {
     }
   
     const handleSubmit = (event) => {
-      event.preventDefault();
-      fetchData(book, 10).then(res => {
-        const data = res.data.items;
-        setResult(data);
-      })
+        event.preventDefault();
+        fetchData(book, 10)
+            .then(res => {
+                const data = res.data.items;
+                setResult(data);
+            })
+            .catch(err => {
+                console.log(err);
+            });
     }
   
     return (
@@ -46,7 +50,7 @@ const Search = () => {
                             title={book.volumeInfo.title}
                             description={book.volumeInfo.description}
                             authors={book.volumeInfo.authors}
-                            imageLink={book.volumeInfo.imageLinks.thumbnail}
+                            imageLink={book.volumeInfo.imageLinks === undefined ? "" : book.volumeInfo.imageLinks.thumbnail}
                             selfLink={book.accessInfo.webReaderLink}
                         />
                     )
