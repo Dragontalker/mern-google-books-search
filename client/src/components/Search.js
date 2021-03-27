@@ -43,10 +43,10 @@ const Search = () => {
             </div>
             <br />
             <div className="container">
-                {result.map(book => {
+                {result.map((book, index) => {
                     return (
                         <SearchCard 
-                            key={book.id}
+                            key={index}
                             title={book.volumeInfo.title}
                             description={book.volumeInfo.description}
                             authors={book.volumeInfo.authors}
