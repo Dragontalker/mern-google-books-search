@@ -3,9 +3,11 @@ const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 const path = require('path');
+const cors = require('cors');
 // require('dotenv').config({ path: "./config.env" });
 
 const app = express();
+app.use(cors());
 const PORT = process.env.PORT || 8080;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/googleLibrary';
 
@@ -23,6 +25,10 @@ mongoose.connection.on('connected', () => {
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
+// HTTP request logger
+app.use(morgan('dev'));
+require('./routes/apiRoutes')(app);
+
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname, '/client/build')));
     app.get('*', (req, res) => {
@@ -34,11 +40,6 @@ if (process.env.NODE_ENV === 'production') {
         res.send("Api running");
     });
 };
-
-// HTTP request logger
-app.use(morgan('dev'));
-require('./routes/apiRoutes')(app);
-
 
 app.listen(PORT, () => {
     console.log(`==> 🌎  Listening on port ${PORT}. Visit http://localhost:${PORT} in your browser.`);
