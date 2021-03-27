@@ -23,6 +23,10 @@ mongoose.connection.on('connected', () => {
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static('client/build'));
+};
+
 // HTTP request logger
 app.use(morgan('dev'));
 app.use('/api', routes);
