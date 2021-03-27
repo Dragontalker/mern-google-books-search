@@ -18,7 +18,7 @@ const Search = () => {
             <div className="container">
                 <h1>Your Personal Library</h1>
             </div>
-            <div className="container">
+            {/* <div className="container">
                 {result.map(book => {
                     return (
                         <SavedCard 
@@ -32,7 +32,7 @@ const Search = () => {
                         />
                     )
                 })}
-            </div>
+            </div> */}
 
         </div>
     );
