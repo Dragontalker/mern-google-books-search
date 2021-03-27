@@ -1,15 +1,17 @@
 import NavBar from './components/NavBar';
 import Search from './components/Search';
 import Saved from './components/Saved';
-import { Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <NavBar />
-      <Route exact path='/' component={Search} />
-      <Route path='/saved' component={Saved} />
-    </div>
+      <Switch>
+        <Route exact path="/"><Search /></Route>
+        <Route path="/saved"><Saved /></Route>
+      </Switch>
+    </Router>
   );
 }
 
