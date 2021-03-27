@@ -1,4 +1,8 @@
-# Unit 21: React Week 2
+# __MERN App: Google Books Search__
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## __Deployed at GitHub Pages__
+https://dragontalker-library.herokuapp.com/
 
 ## Overview
 
