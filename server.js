@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 const path = require('path');
-require('dotenv').config({ path: "./config.env" });
+// require('dotenv').config({ path: "./config.env" });
 
 const app = express();
 const PORT = process.env.PORT || 8080;
