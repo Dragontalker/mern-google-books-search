@@ -32,3 +32,27 @@ https://dragontalker-library.herokuapp.com/
 
 ---
 
+### __Installation__
+For local installtion, both front-end and back-end need to be installed:
+```bash
+# Install back-end
+npm install
+
+# Install front-end
+cd client
+npm install
+```
+
+After installtion completed, use the following commands for development:
+```bash
+# Initiate front-end only
+npm run client
+
+# Initiate back-end only
+npm run watch
+
+# Initiate full-stack using concurrent mode
+npm run dev
+```
+
+---
