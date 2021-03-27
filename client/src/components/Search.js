@@ -42,7 +42,7 @@ const Search = () => {
                 </form>
             </div>
             <br />
-            <div className="container">
+            {/* <div className="container">
                 {result.map((book, index) => {
                     return (
                         <SearchCard 
@@ -55,7 +55,7 @@ const Search = () => {
                         />
                     )
                 })}
-            </div>
+            </div> */}
 
         </div>
     );
