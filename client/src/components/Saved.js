@@ -7,7 +7,7 @@ const Search = () => {
     const [result, setResult] = useState([]);
     
     useEffect(() => {
-        axios.get('/api/books').then(res => {
+        axios.get('/api/saved').then(res => {
             const data = res.data;
             setResult(data);
         })
@@ -18,7 +18,7 @@ const Search = () => {
             <div className="container">
                 <h1>Your Personal Library</h1>
             </div>
-            {/* <div className="container">
+            <div className="container">
                 {result.map(book => {
                     return (
                         <SavedCard 
@@ -32,7 +32,7 @@ const Search = () => {
                         />
                     )
                 })}
-            </div> */}
+            </div>
 
         </div>
     );

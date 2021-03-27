@@ -37,7 +37,7 @@ if (process.env.NODE_ENV === 'production') {
 
 // HTTP request logger
 app.use(morgan('dev'));
-app.use('/api', routes);
+require('./routes/apiRoutes')(app);
 
 
 app.listen(PORT, () => {

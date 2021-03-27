@@ -11,7 +11,7 @@ const SearchCard = (props) => {
     
     const handleClick = (event) => {
         axios({
-            url: "/api/save",
+            url: "/api/saved",
             method: "POST",
             data: data
           })

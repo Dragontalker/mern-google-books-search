@@ -5,7 +5,7 @@ const SavedCard = (props) => {
     const handleDelete = () => {
         console.log(props.id);
         axios({
-            url: `/api/delete/${props.id}`,
+            url: `/api/saved/${props.id}`,
             method: "DELETE"
           })
             .then(() => {
