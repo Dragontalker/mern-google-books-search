@@ -4,6 +4,16 @@
 ## __Deployed at GitHub Pages__
 https://dragontalker-library.herokuapp.com/
 
+## __Screenshot of Deployed React Application__
+
+### Search Page
+![app screenshot](./Assets/screenshot_1.png)
+
+---
+
+### Saved Page
+![app screenshot](./Assets/screenshot_2.png)
+
 ## Overview
 
 In the previous unit, we built and deployed our first static React application to GitHub Pages. In this unit, we will integrate React as the View layer into a full-stack web application using the MVC paradigm and deploy it to Heroku. The stack we will work with is known as MERN, short for MongoDB Express React and Node.
