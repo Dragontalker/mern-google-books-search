@@ -17,13 +17,29 @@ https://dragontalker-library.herokuapp.com/
 - [License](#License)
 - [Author Info](#auothor-info)
 
-# **Description**
+# Description
 
 `MERN` stands for MongDB, Express.js, React.js and Node.js. This MERN application allows user to search books from Google Books api and saved to MongoDB through Express servers. Furthermore, this is a SPA (single page application) where routing between different page is handled by React Router.
 
+## **Technologies Used**
+
+- React
+- React Hooks
+- React Routers
+- Express.js
+- Node.js
+- RESTful Api
+- MongoDB
+- Bootstrap 5
+- HTML 5
+- CSS 3
+- JavaScript
+- VS Code
+- Heroku
+
 [Back to the Top](#google-books-search)
 
-# **How to use**
+# How to use
 
 #### Search Page
 
