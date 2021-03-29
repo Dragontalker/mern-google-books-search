@@ -8,7 +8,16 @@ https://dragontalker-library.herokuapp.com/
 
 ---
 
-## **Screenshot of Deployed React Application**
+## **Table of Contents**
+
+- [Description](#Description)
+- [How to Use](#how-to-use)
+- [How to Contribute](#how-to-contribute)
+- [Developer Log](#developer-log)
+- [License](#License)
+- [Author Info](#auothor-info)
+
+# **How to use**
 
 ### Search Page
 
