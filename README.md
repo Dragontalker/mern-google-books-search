@@ -1,39 +1,47 @@
-# __MERN App: Google Books Search__
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Google Books Search
 
-## __Deployed at GitHub Pages__
+[![MonogoDB Badge](https://img.shields.io/badge/-MongoDB-4DB33D?style=for-the-badge&labelColor=black&logo=mongodb&logoColor=3FA037)](#) [![ExpressJS Badge](https://img.shields.io/badge/-Express.JS-F0DB4F?style=for-the-badge&labelColor=black&logo=express&logoColor=F0DB4F)](#) [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Nodejs Badge](https://img.shields.io/badge/-Node.js-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![Boostrap Badge](https://img.shields.io/badge/-bootstrap5-553c7b?style=for-the-badge&labelColor=black&logo=bootstrap&logoColor=553c7b)](#)
+
+## **Deployed at GitHub Pages**
+
 https://dragontalker-library.herokuapp.com/
 
 ---
 
-## __Screenshot of Deployed React Application__
+## **Screenshot of Deployed React Application**
 
 ### Search Page
+
 ![app screenshot](./Assets/screenshot_1.png)
 
 ---
 
 ### Saved Page
+
 ![app screenshot](./Assets/screenshot_2.png)
 
 ---
 
-## __Table of Contents__
-* [Description](#Description)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Contact](#Contact)
-* [License](#License)
+## **Table of Contents**
+
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contact](#Contact)
+- [License](#License)
 
 ---
 
-### __Description__
-`MERN` stands for MongDB, Express.js, React.js and Node.js. This MERN application allows user to search books from Google Books api and saved to MongoDB through Express servers. Furthermore, this is a SPA (single page application) where routing between different page is handled by React Router. 
+### **Description**
+
+`MERN` stands for MongDB, Express.js, React.js and Node.js. This MERN application allows user to search books from Google Books api and saved to MongoDB through Express servers. Furthermore, this is a SPA (single page application) where routing between different page is handled by React Router.
 
 ---
 
-### __Installation__
+### **Installation**
+
 For local installtion, both front-end and back-end need to be installed:
+
 ```bash
 # Install back-end
 npm install
@@ -42,10 +50,13 @@ npm install
 cd client
 npm install
 ```
+
 ---
-### __Usage__
+
+### **Usage**
 
 After installtion completed, use the following commands for development:
+
 ```bash
 # Initiate front-end only
 npm run client
@@ -59,10 +70,12 @@ npm run dev
 
 ---
 
-### __Contact__
+### **Contact**
+
 If you have any questions, email me at richard.yang.tong@gmail.com.
 
-### __License__
+### **License**
+
 Copyright (c) [2021] [Richard Yang]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
