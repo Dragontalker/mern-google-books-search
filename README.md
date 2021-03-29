@@ -55,7 +55,7 @@ https://dragontalker-library.herokuapp.com/
 
 ---
 
-### **Installation**
+### :cd: **Installation**
 
 For local installtion, both front-end and back-end need to be installed:
 
@@ -72,7 +72,7 @@ npm install
 
 ---
 
-### **Usage**
+### :computer: **Usage**
 
 After installtion completed, use the following commands for development:
 
@@ -91,7 +91,7 @@ npm run dev
 
 ---
 
-### **Contact**
+### :space_invader: **Contact**
 
 If you have any questions, email me at richard.yang.tong@gmail.com.
 
@@ -99,7 +99,7 @@ If you have any questions, email me at richard.yang.tong@gmail.com.
 
 ---
 
-### **License**
+### :mortar_board: **License**
 
 MIT License
 
