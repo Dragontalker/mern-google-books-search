@@ -39,15 +39,15 @@ https://dragontalker-library.herokuapp.com/
 
 [Back to the Top](#google-books-search)
 
-# How to use
+# :crystal_ball: How to use
 
-#### Search Page
+#### :mag: Search Page
 
 ![app screenshot](./Assets/screenshot_1.png)
 
 ---
 
-### Saved Page
+### :floppy_disk: Saved Page
 
 ![app screenshot](./Assets/screenshot_2.png)
 
