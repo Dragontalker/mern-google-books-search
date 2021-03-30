@@ -29,6 +29,7 @@ https://dragontalker-library.herokuapp.com/
 - Node.js
 - RESTful Api
 - MongoDB
+- Mongoose
 - Bootstrap 5
 - HTML 5
 - CSS 3
