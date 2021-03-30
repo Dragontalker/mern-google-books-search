@@ -18,7 +18,7 @@ https://dragontalker-library.herokuapp.com/
 
 # Description
 
-:mag_right:`MERN` stands for MongDB, Express.js, React.js and Node.js. This MERN application allows user to search books from Google Books api and saved to MongoDB through Express servers. Furthermore, this is a SPA (single page application) where routing between different page is handled by React Router.
+:mag_right: `MERN` stands for MongDB, Express.js, React.js and Node.js. This MERN application allows user to search books from Google Books api and saved to MongoDB through Express servers. Furthermore, this is a SPA (single page application) where routing between different page is handled by React Router.
 
 ## :wrench: **Technologies Used**
 
@@ -38,9 +38,9 @@ https://dragontalker-library.herokuapp.com/
 
 [Back to the Top](#google-books-search)
 
-# :crystal_ball: How to Use
+# How to Use
 
-This application includes two features: search and save.
+:crystal_ball: This application includes two features: search and save.
 
 ## :mag: Feature: Search Page
 
@@ -94,9 +94,9 @@ npm run dev
 
 ---
 
-# :mortar_board: License
+# License
 
-MIT License
+:mortar_board: MIT License
 
 Copyright (c) [2021] [Richard Yang]
 
@@ -108,9 +108,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 [Back to the Top](#google-books-search)
 
-# :space_invader: Author Info
+# Author Info
 
-If you have any questions, email me at richard.yang.tong@gmail.com.
+:space_invader: If you have any questions, email me at richard.yang.tong@gmail.com.
 
 [Back to the Top](#google-books-search)
 
