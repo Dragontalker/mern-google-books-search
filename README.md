@@ -73,11 +73,9 @@ npm install
 
 [Back to the Top](#google-books-search)
 
----
+# :computer: How to Contribute
 
-### :computer: **Usage**
-
-After installtion completed, use the following commands for development:
+After installtion completed, use the following commands to start development:
 
 ```bash
 # Initiate front-end only
@@ -87,12 +85,12 @@ npm run client
 npm run watch
 
 # Initiate full-stack using concurrent mode
+# React development server is hosted at http://localhost:3000
+# Express server is at hosted at http://localhost:8080
 npm run dev
 ```
 
 [Back to the Top](#google-books-search)
-
----
 
 # License
 
@@ -113,5 +111,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 :space_invader: Tong (Richard) Yang is a full stack software engineering from Canada, living Toronto Area. If you have any questions, email him at richard.yang.tong@gmail.com or visit his [GitHub](https://github.com/Dragontalker).
 
 [Back to the Top](#google-books-search)
-
----
