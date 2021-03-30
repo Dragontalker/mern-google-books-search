@@ -110,7 +110,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Author Info
 
-:space_invader: If you have any questions, email me at richard.yang.tong@gmail.com.
+:space_invader: Tong (Richard) Yang is a full stack software engineering from Canada, living Toronto Area. If you have any questions, email him at richard.yang.tong@gmail.com or visit his [GitHub](https://github.com/Dragontalker).
 
 [Back to the Top](#google-books-search)
 
