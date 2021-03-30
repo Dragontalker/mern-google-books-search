@@ -14,7 +14,7 @@ https://dragontalker-library.herokuapp.com/
 - [How to Use](#how-to-use)
 - [How to Install](#how-to-install)
 - [License](#license)
-- [Author Info](#auothor-info)
+- [Author Info](#author-info)
 
 # Description
 
