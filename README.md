@@ -59,9 +59,9 @@ Clicking on the `Saved` link on the top right corner will take user to the saved
 
 [Back to the Top](#google-books-search)
 
-# :cd: How to Install
+# How to Install
 
-For local installtion, both front-end and back-end need to be installed:
+:cd: For local installtion, both front-end and back-end need to be installed:
 
 ```bash
 # Install back-end
@@ -74,7 +74,7 @@ npm install
 
 [Back to the Top](#google-books-search)
 
-# :computer: How to Contribute
+## :computer: Start Development
 
 After installtion completed, use the following commands to start development:
 
