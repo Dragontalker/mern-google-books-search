@@ -10,12 +10,12 @@ https://dragontalker-library.herokuapp.com/
 
 ### **Table of Contents**
 
-- [Description](#Description)
-- [How to Use](#how-to-use)
-- [How to Contribute](#how-to-contribute)
+- [Description](:mag_right:-#Description)
+- [How to Use](#:crystal_ball:-how-to-use)
+- [How to Install](:cd:-#how-to-install)
 - [Developer Log](#developer-log)
-- [License](#License)
-- [Author Info](#auothor-info)
+- [License](:mortar_board:-#License)
+- [Author Info](:space_invader:-#auothor-info)
 
 # :mag_right: Description
 
@@ -39,7 +39,7 @@ https://dragontalker-library.herokuapp.com/
 
 [Back to the Top](#google-books-search)
 
-# :crystal_ball: How to use
+# :crystal_ball: How to Use
 
 This application includes two features: search and save.
 
@@ -59,7 +59,7 @@ Clicking on the `Saved` link on the top right corner will take user to the saved
 
 [Back to the Top](#google-books-search)
 
-# :cd: Installation
+# :cd: How to Install
 
 For local installtion, both front-end and back-end need to be installed:
 
@@ -95,15 +95,7 @@ npm run dev
 
 ---
 
-### :space_invader: **Contact**
-
-If you have any questions, email me at richard.yang.tong@gmail.com.
-
-[Back to the Top](#google-books-search)
-
----
-
-### :mortar_board: **License**
+# :mortar_board: License
 
 MIT License
 
@@ -116,3 +108,11 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [Back to the Top](#google-books-search)
+
+# :space_invader: Author Info
+
+If you have any questions, email me at richard.yang.tong@gmail.com.
+
+[Back to the Top](#google-books-search)
+
+---
