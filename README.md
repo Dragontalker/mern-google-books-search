@@ -10,12 +10,12 @@ https://dragontalker-library.herokuapp.com/
 
 ### **Table of Contents**
 
-- [Description](:mag_right:-#Description)
+- [Description](#:mag_right:-Description)
 - [How to Use](#:crystal_ball:-how-to-use)
-- [How to Install](:cd:-#how-to-install)
+- [How to Install](#:cd:-how-to-install)
 - [Developer Log](#developer-log)
-- [License](:mortar_board:-#License)
-- [Author Info](:space_invader:-#auothor-info)
+- [License](#:mortar_board:-License)
+- [Author Info](#:space_invader:-auothor-info)
 
 # :mag_right: Description
 
