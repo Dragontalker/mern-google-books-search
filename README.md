@@ -41,7 +41,11 @@ https://dragontalker-library.herokuapp.com/
 
 # :crystal_ball: How to use
 
-#### :mag: Search Page
+This application includes two features: search and save.
+
+#### :mag: Search Feature
+
+After launching the application, the user will be place in the search page. This search function allows user to find results from Google Books API. The screenshot below shows the search result for keyword `typescript`. Each returned results are presented in a card, which contains two functions: view eBook on Google Books, or saved this book to user's personal library.
 
 ![app screenshot](./Assets/screenshot_1.png)
 
